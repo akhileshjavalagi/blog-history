@@ -33,23 +33,6 @@ const TableData = () => {
 
   const [tabelData, setTableData] = useState([]);
 
-  // async function fetchData() {
-
-  //   fetch('http://demo.api.admin.circlesnow.com/ProductRESTService.svc/getschedmsg', {
-  //     headers: {
-  //       'Content-Type': 'application/json',
-  //       "token": "akhilesh@gmail.com"
-  //     }
-  //   })
-  //     .then(response => response.json())
-  //     .then(data => {
-  //       const parsedData = JSON.parse(data.dt);
-  //       setTableData(parsedData);
-  //       console.log(parsedData);
-  //     })
-  //     .catch(error => console.error(error));
-  // }
-
   async function fetchData(): Promise<void> {
     fetch('http://demo.api.admin.circlesnow.com/ProductRESTService.svc/getschedmsg', {
       headers: {
