@@ -1,0 +1,76 @@
+.mainDiv {
+    width: 100%;
+}
+
+.FormDiv {
+    width: 35%;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.photo {
+    display: flex;
+}
+
+.profileImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.imagediv{  
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    text-align: center;
+}
+
+.userLoginText{
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.buttonDiv{
+   /* display: flex;
+   justify-items: center; */
+   margin: auto;
+   
+}
+
+.changeButton{
+    margin : auto;
+    width: 250px;
+    /* align-self: center;
+    justify-items: center; */
+}
+
+.textFieldDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.mainHeading{
+    padding: 30px 20px 20px 150px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.submitCancelDiv{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.submitCancelButton{
+    background-color: #f56565;
+    border: 1px solid red;
+}
+
