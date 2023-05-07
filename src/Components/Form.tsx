@@ -40,11 +40,11 @@ const FormValue = (): JSX.Element => {
       text.launchdate.length > 0 &&
       text.image_link.length > 0
     ) {
-      fetch('http://demo.api.admin.circlesnow.com/ProductRESTService.svc/schedMsg', {
+      fetch('https://demo.api.admin.circlesnow.com/ProductRESTService.svc/schedMsg', {
         method: "POST",
         headers: {
           'Content-Type': 'application/json',
-          "token": "akhilesh@gmail.com"
+          "token": "akjavalagi@gmail.com"
         },
         body: JSON.stringify(text)
       })

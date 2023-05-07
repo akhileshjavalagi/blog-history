@@ -34,10 +34,10 @@ const TableData = () => {
   const [tabelData, setTableData] = useState([]);
 
   async function fetchData(): Promise<void> {
-    fetch('http://demo.api.admin.circlesnow.com/ProductRESTService.svc/getschedmsg', {
+    fetch('https://demo.api.admin.circlesnow.com/ProductRESTService.svc/getschedmsg', {
       headers: {
         'Content-Type': 'application/json',
-        "token": "akhilesh@gmail.com"
+        "token": "akjavalagi@gmail.com"
       }
     })
       .then((response: Response) => response.json())
